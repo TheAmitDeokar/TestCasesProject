@@ -1,0 +1,31 @@
+package QualityKiosksTraining.OrangeHRMTestCases.TestCases;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import QualityKiosksTraining.OrangeHRMTestCases.Pages.LoginPage;
+
+public class InvalidLoginTestCases 
+{
+
+	LoginPage loginpage;
+	@BeforeClass
+	public void Init()
+	{
+		loginpage=new LoginPage();
+		
+	}
+	
+	@Test(priority=1)
+	public void TestLoginWithInValidCrdentials()
+	{
+		
+		loginpage.DoLogin("Pranoday", "Dingare");
+		String CurrentError=loginpage.GetLoginError();
+		Assert.assertEquals(CurrentError, "Not valid credentials");
+	}
+
+
+
+}

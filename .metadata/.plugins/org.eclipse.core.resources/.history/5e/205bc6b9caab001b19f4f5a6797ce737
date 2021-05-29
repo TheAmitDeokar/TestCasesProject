@@ -1,0 +1,8 @@
+package QualityKiosksTraining.OrangeHRMTestCases.TestCases;
+
+//LAYER 1:-TESTCASE LAYER
+public class ValidLoginCredentialsTestcase 
+{
+	
+
+}

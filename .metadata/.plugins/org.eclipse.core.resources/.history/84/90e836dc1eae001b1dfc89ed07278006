@@ -1,0 +1,33 @@
+package QualityKiosksTraining.OrangeHRMCucumberTestCases.Pages;
+
+import cucumber.annotation.en.Given;
+import cucumber.annotation.en.When;
+
+public class LoginTestcases_StepDefinations 
+{
+
+	LoginPage loginpage;
+	@Given("^User is on Login screen$")
+	public void User_is_on_Login_screen() 
+	{
+	    // Express the Regexp above with the code you wish you had
+		loginpage=new LoginPage("CHROME");
+	}
+	
+	@When("^User enters \"([^\"]*)\" in UserName field$")
+	public void EnterUserName(String UserName) 
+	{
+	
+		
+	}
+
+	@When("^User enters \"([^\"]*)\" in Password field$")
+	public void EnterPassword(String arg1) {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+
+
+
+}

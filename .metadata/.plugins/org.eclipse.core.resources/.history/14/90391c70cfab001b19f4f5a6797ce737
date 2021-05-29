@@ -1,0 +1,15 @@
+package QualityKiosksTraining.OrangeHRMTestCases.TestCases;
+
+import QualityKiosksTraining.OrangeHRMTestCases.Pages.LoginPage;
+
+//LAYER 1:-TESTCASE LAYER
+public class ValidLoginCredentialsTestcase 
+{
+	LoginPage loginpage;
+	@BeforeClass
+	public void Init()
+	{
+		loginpage=new LoginPage();
+		
+	}
+}

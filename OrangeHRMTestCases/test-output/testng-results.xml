@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-29T09:20:41 IST" name="OrangeHRMDemoTestcases" finished-at="2021-05-29T09:21:03 IST" duration-ms="21702">
+    <groups>
+    </groups>
+    <test started-at="2021-05-29T09:20:41 IST" name="LoginTestcases" finished-at="2021-05-29T09:21:03 IST" duration-ms="21702">
+      <class name="QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases">
+        <test-method is-config="true" signature="Init(java.lang.String)[pri:0, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases@59af0466]" started-at="2021-05-29T09:20:55 IST" name="Init" finished-at="2021-05-29T09:21:00 IST" duration-ms="5669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="TestLoginWithInValidCrdentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases@59af0466]" started-at="2021-05-29T09:21:01 IST" name="TestLoginWithInValidCrdentials" data-provider="ProvideInvalidCredentialsFromExcel" finished-at="2021-05-29T09:21:02 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithInValidCrdentials -->
+        <test-method signature="TestLoginWithInValidCrdentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases@59af0466]" started-at="2021-05-29T09:21:02 IST" name="TestLoginWithInValidCrdentials" data-provider="ProvideInvalidCredentialsFromExcel" finished-at="2021-05-29T09:21:02 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithInValidCrdentials -->
+        <test-method signature="TestLoginWithInValidCrdentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases@59af0466]" started-at="2021-05-29T09:21:02 IST" name="TestLoginWithInValidCrdentials" data-provider="ProvideInvalidCredentialsFromExcel" finished-at="2021-05-29T09:21:02 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithInValidCrdentials -->
+        <test-method signature="TestLoginWithInValidCrdentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases@59af0466]" started-at="2021-05-29T09:21:02 IST" name="TestLoginWithInValidCrdentials" data-provider="ProvideInvalidCredentialsFromExcel" finished-at="2021-05-29T09:21:03 IST" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deokar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithInValidCrdentials -->
+      </class> <!-- QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases -->
+      <class name="QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase">
+        <test-method is-config="true" signature="Init(java.lang.String)[pri:0, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase@65f095f8]" started-at="2021-05-29T09:20:41 IST" name="Init" finished-at="2021-05-29T09:20:50 IST" duration-ms="8631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="TestLoginWithValidCrdentials()[pri:1, instance:QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase@65f095f8]" started-at="2021-05-29T09:20:50 IST" name="TestLoginWithValidCrdentials" finished-at="2021-05-29T09:20:55 IST" duration-ms="4913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithValidCrdentials -->
+      </class> <!-- QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase -->
+    </test> <!-- LoginTestcases -->
+  </suite> <!-- OrangeHRMDemoTestcases -->
+</testng-results>

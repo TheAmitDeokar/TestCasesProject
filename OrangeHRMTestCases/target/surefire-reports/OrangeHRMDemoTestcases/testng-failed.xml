@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMDemoTestcases]" verbose="0">
+  <parameter name="Browser" value="FIREFOX"/>
+  <test thread-count="5" name="LoginTestcases(failed)" verbose="0">
+    <classes>
+      <class name="QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase">
+        <methods>
+          <include name="TestLoginWithValidCrdentials"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase -->
+      <class name="QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases">
+        <methods>
+          <include name="TestLoginWithInValidCrdentials"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases -->
+    </classes>
+  </test> <!-- LoginTestcases(failed) -->
+</suite> <!-- Failed suite [OrangeHRMDemoTestcases] -->

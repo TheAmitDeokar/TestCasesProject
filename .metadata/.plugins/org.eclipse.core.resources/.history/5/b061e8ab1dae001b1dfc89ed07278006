@@ -1,0 +1,5 @@
+package QualityKiosksTraining.OrangeHRMCucumberTestCases.Pages;
+
+public class LoginTestcases {
+
+}

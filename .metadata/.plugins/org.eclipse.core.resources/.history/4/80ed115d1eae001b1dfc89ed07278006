@@ -1,0 +1,3 @@
+Feature: Testing Login functionality of Orange HRM application
+
+Scenario: Testing login functionality with valid credentials

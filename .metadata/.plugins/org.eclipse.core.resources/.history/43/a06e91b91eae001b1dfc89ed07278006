@@ -1,0 +1,19 @@
+package QualityKiosksTraining.OrangeHRMCucumberTestCases.Pages;
+
+import cucumber.annotation.en.Given;
+
+public class LoginTestcases_StepDefinations 
+{
+
+	LoginPage loginpage;
+	@Given("^User is on Login screen$")
+	public void User_is_on_Login_screen() 
+	{
+	    // Express the Regexp above with the code you wish you had
+		loginpage=new LoginPage("CHROME");
+	
+	}
+
+
+
+}

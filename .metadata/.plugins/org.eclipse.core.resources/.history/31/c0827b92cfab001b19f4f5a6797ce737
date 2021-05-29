@@ -1,0 +1,23 @@
+package QualityKiosksTraining.OrangeHRMTestCases.TestCases;
+
+import org.testng.annotations.BeforeClass;
+
+import QualityKiosksTraining.OrangeHRMTestCases.Pages.LoginPage;
+
+//LAYER 1:-TESTCASE LAYER
+public class ValidLoginCredentialsTestcase 
+{
+	LoginPage loginpage;
+	@BeforeClass
+	public void Init()
+	{
+		loginpage=new LoginPage();
+		
+	}
+	
+	@Test(priority=1)
+	public void TestLoginWithValidCrdentials()
+	{
+		
+	}
+}

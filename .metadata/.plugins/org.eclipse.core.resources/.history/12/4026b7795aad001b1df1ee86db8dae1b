@@ -1,0 +1,16 @@
+<suite name="OrangeHRMDemoTestcases">
+
+	<test name="LoginTestcases">
+			<classes>
+				<class name="QualityKiosksTraining.OrangeHRMTestCases.TestCases.ValidLoginCredentialsTestcase">
+				
+				</class>
+						
+				<class name="QualityKiosksTraining.OrangeHRMTestCases.TestCases.InvalidLoginTestCases">
+				
+				</class>
+							
+			</classes>
+		
+	</test>
+</suite>
